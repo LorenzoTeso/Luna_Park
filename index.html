@@ -9,10 +9,22 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
     <title>Luna Park Dark Moon 2022 new site!!</title>
+    <style>
+      body {
+        font-size: 25px;
+        background-color: darkslategray;
+        color: white;
+      }
+      h1{
+        font-family: 'Kalam', cursive;
+        font-size:50px;
+        color:fuchsia;
+      }
+    </style>
   </head>
   <body>
         <!-- navbar con il menu-->
-        <div class="container">
+        <div class="container-fluid">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="index.html">Luna Park Dark Moon</a>
@@ -44,18 +56,74 @@
         </div>
 
         <!-- slider di foto -->
-        <div class="container">
-
+        <div class="container-fluid">
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/copertina1.jpg" class="d-block w-100" alt="Foto di un bellissimo luna park">
+              </div>
+              <div class="carousel-item">
+                <img src="images/copertina2.jpg" class="d-block w-100" alt="Foto di ragazza che mangia zucchero filato">
+              </div>
+              <div class="carousel-item">
+                <img src="images/copertina3.jpg" class="d-block w-100" alt="Vedat sul Tagadà">
+              </div>
+            </div>
+          </div>
         </div>
 
         <!-- testo di benvenuto-->
         <div class="container">
-
+          <h1>Titolo fantasioso</h1>
+          <p>
+            Testo in cui non so cosa scrivere
+          </p>
         </div>
 
         <!-- card con le attrazioni principali-->
         <div class="container">
-
+          <div class="row">
+            <div class="col">
+              <div class="card bg-dark w-100">
+                <img src="images/card1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Moveve</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card bg-dark w-100">
+                <img src="images/copertina1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Movete</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card bg-dark w-100">
+                <img src="images/copertina1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Movete</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card bg-dark w-100">
+                <img src="images/copertina1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Movete</a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
         <!-- footer-->
